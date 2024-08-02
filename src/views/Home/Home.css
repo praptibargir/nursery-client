@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.btn-add{
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 100;
+}
