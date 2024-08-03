@@ -40,36 +40,36 @@ function AddPlant() {
             <form>
                 <input
                     type='text'
-                    placeholder='Enter Plant Name: '
+                    placeholder='Enter Plant Name '
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     className='ipbox'
                 />
                 <input
                     type='text'
-                    placeholder='Enter Plant Category: '
+                    placeholder='Enter Plant Category'
                     value={category}
                     onChange={(e) => setCategory(e.target.value)}
                     className='ipbox'
                 />
                 <input
                     type='text'
-                    placeholder='Enter Plant Price: '
+                    placeholder='Enter Plant Price '
                     value={price}
                     onChange={(e) => setPrice(e.target.value)}
                     className='ipbox'
                 />
-                <img src={image} className='image'/>
+                <img src={image} className='image' alt=' Please add image url to preview..'/>
                 <input
                     type='text'
-                    placeholder='Enter Plant Image Url: '
+                    placeholder='Enter Plant Image Url '
                     value={image}
                     onChange={(e) => setImage(e.target.value)}
                     className='ipbox'
                 />
                 <input
                     type='text'
-                    placeholder='Enter Plant Description: '
+                    placeholder='Enter Plant Description '
                     value={description}
                     onChange={(e) => setDescription(e.target.value)}
                     className='ipbox'
@@ -77,7 +77,8 @@ function AddPlant() {
 
                 <button type='button' onClick={addPlant} className='btn'>Add Plant</button>
             </form>
-            <Link to="/">Back to Home</Link>
+            <button type='button' className='btn'><Link to="/" className='home'>Back to Home</Link></button>
+            
             <Toaster/>
         </div>
     )

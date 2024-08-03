@@ -6,6 +6,7 @@
     border-radius: 10px;
     font-size: 15px;
     text-align: center;
+    border: 1px solid black;
 
 }
 .title{
@@ -29,4 +30,16 @@
     height: 200px;
     width: 250px;
     object-fit: cover;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.btn:hover{
+    box-shadow: 0 0 15px 5px rgb(41, 107, 41);
+}
+
+.home{    
+    text-decoration: none;
+    color: white;
 }
