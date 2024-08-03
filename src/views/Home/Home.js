@@ -25,7 +25,7 @@ function Home() {
 
     return (
         <>
-            <h1 className='title'>Plants</h1>
+            <p className='title'>Plants</p>
             <div className='container'>
                 {
                     plant.map((plant, i) => {

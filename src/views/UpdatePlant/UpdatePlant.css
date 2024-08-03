@@ -1,0 +1,9 @@
+.title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    cursor: pointer;
+}
